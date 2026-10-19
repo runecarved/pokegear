@@ -47,27 +47,10 @@ with open('../../phones.html', 'w') as f:
 
         <script>
         DataTable.Dom.s(document).on('ready', () => {
-            var table = new DataTable('#phone', {
+            new DataTable('#phone', {
                 order: [7, 'asc'],
                 pageLength: -1
             })
-            $('#myTable').on('change', 'input[type="checkbox"]', function () {
-
-            // DISCLOSURE: The stanza below was created using genAI and checked to the best of my ability.
-            // Count checked checkboxes in the 6th column (index 5)
-            var checkedCount = table
-                .column(5)
-                .nodes()
-                .to$()
-                .find('input[type="checkbox"]:checked')
-                .length;
-            if (checkedCount > 8) {
-                alert('Warning: The PokeGear's phonebook only holds up to 8 trainers, but you have selected {checkedCount}.');
-        });
-
-        var filteredData = table.column(6).data()
-        .filter(function (value, index) {
-            return value;
         });
         </script>
     </head>

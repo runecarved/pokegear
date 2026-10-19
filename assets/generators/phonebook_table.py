@@ -47,16 +47,10 @@ with open('../../phones.html', 'w') as f:
 
         <script>
         DataTable.Dom.s(document).on('ready', () => {
-
             var table = new DataTable('#phone', {
                 order: [7, 'asc'],
                 pageLength: -1
             })
-        
-            $('#phone').on('change', 'input[type="checkbox"]', function () {
-                // Count checked checkboxes in the 6th column (index 5)
-                var checkedCount = 9
-            }
         });
         </script>
     </head>

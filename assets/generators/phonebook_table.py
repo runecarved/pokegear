@@ -44,12 +44,14 @@ with open('../../phones.html', 'w') as f:
         <!-- datatables -->
         <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.css">
         <script src="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.js"></script>
+
+        <script>
+        DataTable.Dom.s(document).on('ready', () => {
+            new DataTable('#phone', {order: [7, 'asc']})
+        });
+        </script>
     </head>
     <body>
-
-    <script defer>
-        new DataTable('#phone');
-    </script>
     """
     )
     f.write(html_output)

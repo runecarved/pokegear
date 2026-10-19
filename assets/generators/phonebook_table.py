@@ -54,13 +54,8 @@ with open('../../phones.html', 'w') as f:
             })
         
             $('#phone').on('change', 'input[type="checkbox"]', function () {
-
                 // Count checked checkboxes in the 6th column (index 5)
                 var checkedCount = 9
-
-                if (checkedCount > 8) {
-                    alert('Warning: You have selected {checkedCount} trainers, but the PokeGear will only store 8.');
-                }
             }
         });
         </script>

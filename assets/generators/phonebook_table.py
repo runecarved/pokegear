@@ -17,18 +17,32 @@ def csv_to_html_table(csv_file_path):
         for row in reader:
             html_string += "        <tr>\n"
             for cell in row:
-                html_string += f"            <td>{cell}</td>\n"
+                if cell.isdigit():
+                    html_string += f"            <td><input type=\"number\">{cell}</td>\n"
+                elif cell.lower() in ['true','false']:
+                    html_string += f"            <td><input type=\"checkbox\"></td>\n"
+                else:
+                    html_string += f"            <td>{cell}</td>\n"
             html_string += "        </tr>\n"
         html_string += "    </tbody>\n"
     html_string += "</table>"
     return html_string
 
 # Example usage:
-csv_file = '../data/phones.csv'
+csv_file = '../data/phone.csv'
 html_output = csv_to_html_table(csv_file)
 
 # print(html_output)
 
 # To save to an HTML file:
-with open('phones.html', 'w') as f:
+with open('../../phones.html', 'w') as f:
+    f.write("""<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>About PokeGear</title>
+    </head>
+    <body>"""
+    )
     f.write(html_output)
+    f.write("</body>")

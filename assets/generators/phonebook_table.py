@@ -47,7 +47,7 @@ with open('../../phones.html', 'w') as f:
 
         <script>
         DataTable.Dom.s(document).on('ready', () => {
-            new DataTable('#phone', {
+            var table = new DataTable('#phone', {
                 order: [7, 'asc'],
                 pageLength: -1
             })

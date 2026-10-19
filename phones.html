@@ -2,13 +2,17 @@
     <html>
     <head>
         <meta charset="utf-8" />
-        <title>About PokeGear</title>
+        <title>Phonebook</title>
+        <!-- datatables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.css">
+        <script src="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.js"></script>
     </head>
     <body>
 
-    <!-- table sorter JS -->
-    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
-    <table border="1" class="sortable">
+    <script defer>
+        new DataTable('#phone');
+    </script>
+    <table id="phone" border="1">
     <thead>
         <tr>
             <th>Name</th>
@@ -272,36 +276,6 @@
             <td>Gives away star pieces.</td>
             <td><input type="checkbox"></td>
             <td><input type="checkbox"></td>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
         </tr>
     </tbody>
 </table></body>

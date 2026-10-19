@@ -3,7 +3,7 @@
 import csv
 
 def csv_to_html_table(csv_file_path):
-    html_string = "<table border=\"1\" class=\"sortable\">\n"
+    html_string = "<table id=\"phone\" border=\"1\">\n"
     with open(csv_file_path, 'r', newline='') as csvfile:
         reader = csv.reader(csvfile)
         # Read header
@@ -40,12 +40,16 @@ with open('../../phones.html', 'w') as f:
     <html>
     <head>
         <meta charset="utf-8" />
-        <title>About PokeGear</title>
+        <title>Phonebook</title>
+        <!-- datatables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.css">
+        <script src="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.js"></script>
     </head>
     <body>
 
-    <!-- table sorter JS -->
-    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+    <script defer>
+        new DataTable('#phone');
+    </script>
     """
     )
     f.write(html_output)

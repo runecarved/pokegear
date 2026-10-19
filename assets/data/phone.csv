@@ -1,29 +1,29 @@
-Name,Location,Trainer Type(s),Number of Rematches,Description,Saved?,Complete?
-Youngster Joey,Route 30,reward,4,Reward: HP Up.,false,false
-Bug Catcher Wade,Route 31,giveaway;reminder,,Reminds the player about the Bug-Catching Contest; Gives away berries.,false,false
-Picknicker Liz,Route 32,,,,false,false
-Fisherman Ralph,Route 32,swarm,,Informs the player of Qwilfish swarms.,false,false
-Hiker Anthony,Route 33,swarm,,Informs the player of Dunsparce swarms.,false,false
-Picknicker Gina,Route 34,giveaway,,Gives away Leaf Stones.,false,false
-Camper Todd,Route 34,reminder,,Reminds player about the Goldenrod Dept Store's sale.,false,false
-Bug Catcher Arnie,Route 35,swarm,,Informs the player of Yanma swarms.,false,false
-Juggler Irwin,Route 35,,,Calls to chat about the player's achievements as they progress throughout the game.,false,false
-Pokefan Beverly,National Park,giveaway,,Requires Marrill in the party to register; Gives away nuggets.,false,false
-School Kid Jack,National Park,,,,false,false
-School Kid Alan,Route 36,giveaway,,Gives away Fire Stones.,false,false
-Lass Dana,Route 38,giveaway,,Gives away Thunderstones.,false,false
-School Kid Chad,Route 38,swarm,,Informs the player of Snubbull swarms.,false,false
-Pokefan Derek,Route 39,giveaway;reminder,,Reminds the player about the Bug-Catching Contest; Gives away nuggets.,false,false
-Sailor Huey,Olivine Lighthouse,reward,4,Reward: Protein.,false,false
-Fisherman Tully,Route 42,giveaway,,Gives away Water Stones.,false,false
-Picknicker Tiffany,Route 43,giveaway,,Gives away Pink Bows.,false,false
-PokeManiac Brent,Route 43,,,,false,false
-Bird Keeper Vance,Route 44,reward,2,Reward: Carbos.,false,false
-Fisherman Wilton,Route 44,swarm;giveaway,,Informs the player of a remoraid swarm; Gives away balls.,false,false
-Black Belt Kenji,Route 45,giveaway,,Gives away a PP Max every 2-5 days if visited in the afternoon.,false,false
-Hiker Parry,Route 45,swarm;reward,2,Informs the player of Marill swarms; Reward: Iron.,false,false
-Picknicker Erin,Route 46,reward,2,Reward: Calcium,false,false
-Ace Trainer Beth,Route 26,thief,2,Rapidash: Focus Band.,false,false
-Ace Trainer Gaven,Route 26,thief,2,Kingler: King's Rock.,false,false
-Ace Trainer Reena,Route 27,thief,2,Nidoqueen: Pink Bow.,false,false
-Bird Keeper Jose,Route 27,giveaway,,Gives away star pieces.,false,false
+Saved?,Name,Location,Trainer Type(s),No. Rematches,Description,Complete?
+false,Youngster Joey,Route 30,reward,4,Reward: HP Up.,false
+false,Bug Catcher Wade,Route 31,giveaway;reminder,,Reminds the player about the Bug-Catching Contest; Gives away berries.,false
+false,Picknicker Liz,Route 32,,,,false
+false,Fisherman Ralph,Route 32,swarm,,Informs the player of Qwilfish swarms.,false
+false,Hiker Anthony,Route 33,swarm,,Informs the player of Dunsparce swarms.,false
+false,Picknicker Gina,Route 34,giveaway,,Gives away Leaf Stones.,false
+false,Camper Todd,Route 34,reminder,,Reminds player about the Goldenrod Dept Store's sale.,false
+false,Bug Catcher Arnie,Route 35,swarm,,Informs the player of Yanma swarms.,false
+false,Juggler Irwin,Route 35,,,Calls to chat about the player's achievements as they progress throughout the game.,false
+false,Pokefan Beverly,National Park,giveaway,,Requires Marrill in the party to register; Gives away nuggets.,false
+false,School Kid Jack,National Park,,,,false
+false,School Kid Alan,Route 36,giveaway,,Gives away Fire Stones.,false
+false,Lass Dana,Route 38,giveaway,,Gives away Thunderstones.,false
+false,School Kid Chad,Route 38,swarm,,Informs the player of Snubbull swarms.,false
+false,Pokefan Derek,Route 39,giveaway;reminder,,Reminds the player about the Bug-Catching Contest; Gives away nuggets.,false
+false,Sailor Huey,Olivine Lighthouse,reward,4,Reward: Protein.,false
+false,Fisherman Tully,Route 42,giveaway,,Gives away Water Stones.,false
+false,Picknicker Tiffany,Route 43,giveaway,,Gives away Pink Bows.,false
+false,PokeManiac Brent,Route 43,,,,false
+false,Bird Keeper Vance,Route 44,reward,2,Reward: Carbos.,false
+false,Fisherman Wilton,Route 44,swarm;giveaway,,Informs the player of a remoraid swarm; Gives away balls.,false
+false,Black Belt Kenji,Route 45,giveaway,,Gives away a PP Max every 2-5 days if visited in the afternoon.,false
+false,Hiker Parry,Route 45,swarm;reward,2,Informs the player of Marill swarms; Reward: Iron.,false
+false,Picknicker Erin,Route 46,reward,2,Reward: Calcium,false
+false,Ace Trainer Beth,Route 26,thief,2,Rapidash: Focus Band.,false
+false,Ace Trainer Gaven,Route 26,thief,2,Kingler: King's Rock.,false
+false,Ace Trainer Reena,Route 27,thief,2,Nidoqueen: Pink Bow.,false
+false,Bird Keeper Jose,Route 27,giveaway,,Gives away star pieces.,false

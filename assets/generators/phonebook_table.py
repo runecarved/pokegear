@@ -10,7 +10,10 @@ def csv_to_html_table(csv_file_path):
         header = next(reader)
         html_string += "    <thead>\n        <tr>\n"
         for col_name in header:
-            html_string += f"            <th>{col_name}</th>\n"
+            if col_name == "No. Rematches":
+                html_string += f"            <th><div class=\"tooltip\">{col_name}<span class=\"tooltiptext\">Number of rematches for the player to receive the described reward.</span></div></th>\n"
+            else:
+                html_string += f"            <th>{col_name}</th>\n"
         html_string += "        </tr>\n    </thead>\n"
         # Read data rows
         html_string += "    <tbody>\n"
@@ -42,6 +45,7 @@ with open('../../phones.html', 'w') as f:
         <meta charset="utf-8" />
         <title>Phonebook</title>
         <!-- datatables -->
+        <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.css">
         <script src="https://cdn.datatables.net/v/dt/dt-3.1.4/datatables.min.js"></script>
 
@@ -55,8 +59,6 @@ with open('../../phones.html', 'w') as f:
         </script>
     </head>
     <body>
-
-    
     """
     )
     f.write(html_output)
